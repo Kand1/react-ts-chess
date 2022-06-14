@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ts-chess/static/css/main.cd315f15.css",
-    "main.js": "/react-ts-chess/static/js/main.fc9a2460.js",
+    "main.js": "/react-ts-chess/static/js/main.2a06d53c.js",
     "static/js/787.644f7463.chunk.js": "/react-ts-chess/static/js/787.644f7463.chunk.js",
     "static/media/yellow-queen.png": "/react-ts-chess/static/media/yellow-queen.07806db14cf04bb8a1ff.png",
     "static/media/green-queen.png": "/react-ts-chess/static/media/green-queen.e29d7e2de402c492e5b0.png",
@@ -9,11 +9,11 @@
     "static/media/red-queen.png": "/react-ts-chess/static/media/red-queen.52bfdaa31d4e798eb835.png",
     "index.html": "/react-ts-chess/index.html",
     "main.cd315f15.css.map": "/react-ts-chess/static/css/main.cd315f15.css.map",
-    "main.fc9a2460.js.map": "/react-ts-chess/static/js/main.fc9a2460.js.map",
+    "main.2a06d53c.js.map": "/react-ts-chess/static/js/main.2a06d53c.js.map",
     "787.644f7463.chunk.js.map": "/react-ts-chess/static/js/787.644f7463.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd315f15.css",
-    "static/js/main.fc9a2460.js"
+    "static/js/main.2a06d53c.js"
   ]
 }
