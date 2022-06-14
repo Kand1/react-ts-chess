@@ -1,0 +1,121 @@
+@import "vars";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Gargi;
+}
+
+.timer {
+  background-color: $white;
+  border: $black solid 3px;
+  margin: 2vh 0;
+  height: 8vh;
+  width: $cell-size * 14;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: normal;
+  font-size: 1rem;
+  &__element {
+    width: 15vw;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  &__turn-info {
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    button {
+      padding: 5px;
+    }
+  }
+}
+
+.lost-figures {
+  height: 40vh;
+  background-color: $white;
+  padding: 2vh;
+  margin: 2vh;
+  border: $black solid 5px;
+  &__title {
+    font-weight: bolder;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    img {
+      height: 20px;
+    }
+  }
+}
+
+.board {
+  width: $cell-size * 14;
+  height: $cell-size * 14;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__cell {
+    width: $cell-size;
+    height: $cell-size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: $figure-size;
+      height: $figure-size;
+      position: relative;
+    }
+    &_black {
+      background-color: $black;
+    }
+    &_white {
+      background-color: $white;
+    }
+    &_invisible {
+      visibility: hidden;
+    }
+    &_selected {
+      background-color: $selected-color;
+    }
+    &_available-move {
+      height: $available-dot-size;
+      width: $available-dot-size;
+      border-radius: 50%;
+      background-color: $available_color;
+    }
+    &_available-attack {
+      background-color: $available_color;
+    }
+  }
+
+}
+
